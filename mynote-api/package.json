@@ -1,0 +1,15 @@
+{
+  "name": "mynote-api",
+  "version": "1.0.0",
+  "description": "API for mynote",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "api": "json-server --watch db.json --port 3001"
+  },
+  "author": "Wai",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
